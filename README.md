@@ -8,8 +8,8 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
+# 
+pnpm devor
 # or
 bun dev
 ```
@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Doc-
+
+- next js supports file based routing it means i dont need to craete routing like we did in react using react router, just create the folder name like about, and page.tsx it means about is a dynamic route.
+
+
+ URL [http://localhost:3000/about]
+
+![alt text](image.png)
+
+Folder: app/about/
+File inside: page.tsx
+
+![alt text](image-1.png)
+
+For specific things like dynamic routes we will use [id] 
